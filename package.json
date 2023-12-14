@@ -1,7 +1,7 @@
 {
   "name": "url-shortener",
   "version": "0.1.0",
-  "description": "Webservice to generate shortened urls",
+  "description": "Webservice to generate and host shortened urls",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/olillin/UrlShortener/issues"
   },
-  "homepage": "https://github.com/olillin/UrlShortener#readme"
+  "homepage": "https://github.com/olillin/UrlShortener#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
 }
